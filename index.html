@@ -6,6 +6,22 @@
     </head>
     <body>
         <h1 class="text">NETFLIX</h1>
-        
+        <p> number of people clicked the <button id="butti">BUTTON</button></p>
+        <div class="display" id="display">
+            0
+        </div>
+        <script>
+            let count=0;
+
+            const butt=document.getElementById("butti");
+            const disp=document.getElementById("display")
+            
+            butt.addEventListener("click",incre)
+
+            function incre(){
+                count++;
+                disp.innerText =count;
+            }
+        </script>
     </body>
 </html>
