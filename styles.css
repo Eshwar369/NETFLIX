@@ -1,0 +1,21 @@
+@font-face {
+    font-family: bebasNeue;
+    src: url("bebas-neue/BebasNeue.otf");
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    align-content: center;
+    background-color: #b7111b;
+    font-family: 'bebasNeue';
+}
+.text {
+    font-size: 20vh;
+    color: #fafbf4;
+    letter-spacing: 3vh;
+    text-shadow: 2vh 1vh 2vh black;
+    text-align: center;
+    padding: auto auto ;
+}
