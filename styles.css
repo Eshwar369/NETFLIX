@@ -1,15 +1,29 @@
 @font-face {
     font-family: bebasNeue;
-    src: url("bebas-neue/BebasNeue.otf");
+    src: url("BebasNeue.otf");
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     align-content: center;
     background-color: #b7111b;
     font-family: 'bebasNeue';
+}
+button{
+    font-family: inherit;
+    letter-spacing: 0.4vh;
+    border-radius: 4px;
+    background-color: #fafbf4;
+    width: 60px;
+    margin: 10px 10px;
+    padding: px 2px;
+    border-radius: 3px;
+    border: 3px solid rgb(49, 30, 30);
+    box-shadow: 1px 1px 10px  black;
+
 }
 .text {
     font-size: 20vh;
@@ -18,4 +32,15 @@ body{
     text-shadow: 2vh 1vh 2vh black;
     text-align: center;
     padding: auto auto ;
+}
+.display{
+    background-color: #fafbf4;
+    width: 60px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 3px solid rgb(49, 30, 30);
+    box-shadow: 1px 1px 10px  black;
+    
+    text-align: center;
 }
